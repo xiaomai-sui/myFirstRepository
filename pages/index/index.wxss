@@ -1,0 +1,48 @@
+.search {
+    display: flex;
+    font-size: 28rpx;
+}
+
+.search .search_left {
+    margin-top: 5px;
+    position: relative;
+    flex: 1;
+}
+
+.search .search_right {
+    position: relative;
+    flex: 5;
+}
+
+.search_right input {
+    margin-top: -5rpx;
+    background-color: #F4F4F4;
+    border-radius: 30rpx 0 0 30rpx;
+    height: 65rpx;
+    padding-left: 70rpx;
+}
+
+.search_left .icon-xiangxia {
+    position: absolute;
+    top: 0rpx;
+    left: 90rpx;
+}
+
+.search_right .icon-sousuo {
+    position: absolute;
+    top: 11rpx;
+    left: 20rpx;
+}
+
+
+/* .mt_swiper .swiperA {
+    width: 750rpx;
+    height: 187rpx;
+} */
+
+.mt_swiper image,
+navigator {
+    display: block;
+    height: 100%;
+    width: 100%;
+}

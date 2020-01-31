@@ -1,0 +1,22 @@
+<!-- 搜索框 -->
+<view class="search  ">
+    <view class="search_left">
+        <text class="">{{city}} </text>
+        <text class="icon iconfont2 icon-xiangxia"> </text>
+    </view>
+    <view class="search_right">
+        <input type="text" placeholder="请输入商家的名称" />
+        <text class="icon iconfont2 icon-sousuo">     
+      </text>
+    </view>
+</view>
+<!-- 轮播图 -->
+<view class="mt_swiper">
+    <swiper class="swiperA" indicator-dots="{{true}}" autoplay="{{true}}">
+        <swiper-item wx:for="{{swiperArr}}" wx:key="index">
+            <navigator>
+                <image src="{{item.img_src}}"></image>
+            </navigator>
+        </swiper-item>
+    </swiper>
+</view>
